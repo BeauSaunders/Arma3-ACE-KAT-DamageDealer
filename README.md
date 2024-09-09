@@ -13,3 +13,7 @@ To execute a certain number of times change `_woundCount = random 8;` on line 6 
 To execute specific instructions, you can add the following below the `selectRandom` lines (line 14):
 `_part = "body";`
 `_woundType = "bullet";`
+
+
+### Why no comments in the script?
+Unfortunately if you execute the code directly in the box with comments, it fails to execute, so I have left them out for ease of copy/pasting.
