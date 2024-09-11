@@ -1,0 +1,12 @@
+//[float] _severity = How extreme the injury should be (0 -> 1)
+//[string] _part = One of the following body parts to injure: "head","body","hand_l","hand_r","leg_l","leg_r"
+//[string] _woundType = One of the following wound types: "backblast", "bite", "bullet", "explosive", "falling", "grenade", "punch", "ropeburn", "shell", "stab", "unknown", "vehiclecrash"
+//--- COPY/PASTE FROM BELOW THIS COMMENT ---
+
+_severity = 0.8;
+_part = "body";
+_woundType = "bullet";
+
+_unit = _this;
+
+[_unit, _severity, _part, _woundType] call ace_medical_fnc_addDamageToUnit;
